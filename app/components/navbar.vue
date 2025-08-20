@@ -65,7 +65,7 @@
           <div class="md:hidden">
             <button 
               @click="isMobileMenuOpen = !isMobileMenuOpen"
-            class="inline-flex items-center justify-center p-2 rounded-lg text-gray-700 hover:text-blue-600 hover:bg-white/20 focus:outline-none transition-all duration-300"
+            class="inline-flex items-center justify-center p-2 rounded-lg text-gray-700 hover:text-blue-600 hover:bg-white/20 focus:outline-none  focus:ring-blue-500/50 transition-all duration-300"
             >
               <span class="sr-only">Open main menu</span>
               <!-- Hamburger icon with morphing animation -->

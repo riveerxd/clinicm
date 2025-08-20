@@ -400,26 +400,130 @@ onUnmounted(() => {
   }
 });
 
-// SEO meta tags
+// SEO meta tags - Optimized for better search engine visibility
 useHead({
-  title: "ClinicM - Otevírací doba a kontakt",
+  title: "ClinicM | Oční klinika Praha 4",
   meta: [
     {
       name: "description",
-      content:
-        "ClinicM - Oční klinika s lidským přístupem. Zjistěte naši otevírací dobu, adresu a kontaktní informace.",
+      content: "ClinicM - Oční klinika v Praze 4, Táborská 325/57. Zjistěte aktuální otevírací dobu, kontaktní informace a objednejte se na vyšetření. Profesionální péče o zrak s moderním vybavením.",
     },
     {
       name: "keywords",
-      content: "ClinicM, oční klinika, otevírací doba, Praha, kontakt, adresa",
+      content: "ClinicM, oční klinika Praha, otevírací doba, oční vyšetření, kontakt, adresa, Táborská, Praha 4, oční lékař, optometrie",
     },
-    { property: "og:title", content: "ClinicM - Otevírací doba a kontakt" },
+    {
+      name: "author",
+      content: "M Clinic s.r.o.",
+    },
+    {
+      name: "robots",
+      content: "index, follow",
+    },
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1.0",
+    },
+    // Open Graph tags for social media
+    { 
+      property: "og:title", 
+      content: "ClinicM | Oční klinika Praha 4" 
+    },
     {
       property: "og:description",
-      content:
-        "ClinicM - Oční klinika s lidským přístupem. Zjistěte naši otevírací dobu, adresu a kontaktní informace.",
+      content: "ClinicM - Oční klinika v Praze 4, Táborská 325/57. Zjistěte aktuální otevírací dobu, kontaktní informace a objednejte se na vyšetření.",
     },
-    { property: "og:type", content: "website" },
+    { 
+      property: "og:type", 
+      content: "website" 
+    },
+    { 
+      property: "og:url", 
+      content: "https://clinicm.cz" 
+    },
+    { 
+      property: "og:site_name", 
+      content: "ClinicM" 
+    },
+    // Twitter Card tags
+    {
+      name: "twitter:card",
+      content: "summary_large_image",
+    },
+    {
+      name: "twitter:title",
+      content: "ClinicM | Oční klinika Praha 4",
+    },
+    {
+      name: "twitter:description",
+      content: "ClinicM - Oční klinika v Praze 4, Táborská 325/57. Zjistěte aktuální otevírací dobu a kontaktní informace.",
+    },
+    // Additional SEO tags
+    {
+      name: "geo.region",
+      content: "CZ-PR",
+    },
+    {
+      name: "geo.placename",
+      content: "Praha 4",
+    },
+    {
+      name: "geo.position",
+      content: "50.062980;14.441230",
+    },
+    {
+      name: "ICBM",
+      content: "50.062980, 14.441230",
+    },
+    // Schema.org structured data for local business
+    {
+      type: "application/ld+json",
+      children: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "MedicalBusiness",
+        "name": "ClinicM",
+        "description": "Oční klinika s lidským přístupem a moderním vybavením",
+        "url": "https://clinicm.cz",
+        "telephone": "+420241740815",
+        "email": "sestra@clinicm.cz",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Táborská 325/57",
+          "addressLocality": "Praha",
+          "postalCode": "14000",
+          "addressCountry": "CZ"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 50.062980,
+          "longitude": 14.441230
+        },
+        "openingHours": [
+          "Mo 08:00-17:00",
+          "Tu 08:00-13:00", 
+          "We 08:00-16:00",
+          "Th 08:00-17:00",
+          "Fr 08:00-12:00"
+        ],
+        "medicalSpecialty": "Ophthalmology",
+        "availableService": [
+          {
+            "@type": "MedicalProcedure",
+            "name": "Oční vyšetření"
+          },
+          {
+            "@type": "MedicalProcedure", 
+            "name": "Oční lékař"
+          }
+        ]
+      })
+    }
+  ],
+  link: [
+    {
+      rel: "canonical",
+      href: "https://www.clinicm.cz/",
+    },
   ],
 });
 </script>
