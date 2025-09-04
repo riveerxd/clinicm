@@ -9,8 +9,8 @@
           <!-- Main heading -->
           <div class="space-y-6">
             <h1 class="text-6xl lg:text-8xl font-black leading-none tracking-tight">
-              <span class="text-gray-900">Clinic</span>
               <span class="text-blue-600">M</span>
+              <span class="text-gray-900">Clinic</span>
             </h1>
             
             <p class="text-xl lg:text-2xl font-bold text-gray-700 leading-relaxed max-w-lg">
@@ -22,7 +22,7 @@
           <div class="flex flex-col sm:flex-row gap-4 pt-6">
             <button @click="smoothScrollTo('services')" class="group px-8 py-4 bg-gray-900 text-white font-bold rounded-lg shadow-sm hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-300 ease-out">
               <span class="flex items-center space-x-2">
-                <span>Naše služby</span>
+                <span class="w-full text-center sm:text-left block">Naše služby</span>
                 <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                 </svg>

@@ -33,7 +33,7 @@
                 scrolling="no"
                 marginheight="0"
                 marginwidth="0"
-                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=T%C3%A1borsk%C3%A1%20325/57+(ClinicM)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=T%C3%A1borsk%C3%A1%20325/57+(M Clinic)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                 ><a
                   href="https://www.mapsdirections.info/fr/calculer-la-population-sur-une-carte"
                   >mesurer la population sur une carte</a
@@ -251,7 +251,7 @@ const calculateStatus = () => {
 
   // Check if clinic is closed today
   if (!todayHours || !todayHours.open || !todayHours.close) {
-    currentStatus.value = "Zavřeno";
+    currentStatus.value = "Dnes máme zavřeno";
     statusColor.value = "bg-red-500";
     statusTextColor.value = "text-red-600";
 
@@ -271,9 +271,9 @@ const calculateStatus = () => {
 
     if (nextOpenDay && nextOpenTime) {
       const dayName = dayNames[nextOpenDay];
-      timeUntilNextChange.value = `Otevře ${dayName.toLowerCase()} v ${nextOpenTime}`;
+      timeUntilNextChange.value = `Otevíráme ${dayName.toLowerCase()} v ${nextOpenTime}`;
     } else {
-      timeUntilNextChange.value = "Otevře v pondělí v 8:00";
+      timeUntilNextChange.value = "Otevíráme v pondělí v 8:00";
     }
     return;
   }
@@ -317,20 +317,20 @@ const calculateStatus = () => {
 
     if (hoursUntilClose < 1) {
       // Closing in less than an hour
-      currentStatus.value = "Zavírá brzy";
+      currentStatus.value = "Brzy zavíráme";
       statusColor.value = "bg-yellow-500";
       statusTextColor.value = "text-yellow-600";
       timeUntilNextChange.value = `Zavírá za ${minutesUntilClose} minut`;
     } else {
       // Open normally
-      currentStatus.value = "Otevřeno";
+      currentStatus.value = "Máme otevřeno";
       statusColor.value = "bg-green-500";
       statusTextColor.value = "text-green-600";
       timeUntilNextChange.value = `Zavírá za ${hoursUntilClose}h ${minutesUntilClose}m`;
     }
   } else {
     // Clinic is closed
-    currentStatus.value = "Zavřeno";
+    currentStatus.value = "Máme zavřeno";
     statusColor.value = "bg-red-500";
     statusTextColor.value = "text-red-600";
 
@@ -349,7 +349,7 @@ const calculateStatus = () => {
 
     if (nextOpenTime) {
       // Opens later today
-      timeUntilNextChange.value = `Otevře v ${nextOpenTime}`;
+      timeUntilNextChange.value = `Otevíráme v ${nextOpenTime}`;
     } else {
       // Opens tomorrow
       const tomorrow = new Date(now);
@@ -358,7 +358,7 @@ const calculateStatus = () => {
       const tomorrowHours = openingHours.value[tomorrowDay];
 
       if (tomorrowHours && tomorrowHours.open) {
-        timeUntilNextChange.value = `Otevře zítra v ${tomorrowHours.open}`;
+        timeUntilNextChange.value = `Otevíráme zítra v ${tomorrowHours.open}`;
       } else {
         // Find next open day
         let nextOpenDay = null;
@@ -376,9 +376,9 @@ const calculateStatus = () => {
 
         if (nextOpenDay && nextOpenTime) {
           const dayName = dayNames[nextOpenDay];
-          timeUntilNextChange.value = `Otevře ${dayName.toLowerCase()} v ${nextOpenTime}`;
+          timeUntilNextChange.value = `Otevíráme ${dayName.toLowerCase()} v ${nextOpenTime}`;
         } else {
-          timeUntilNextChange.value = "Otevře v pondělí v 8:00";
+          timeUntilNextChange.value = "Otevíráme v pondělí v 8:00";
         }
       }
     }
@@ -402,15 +402,15 @@ onUnmounted(() => {
 
 // SEO meta tags - Optimized for better search engine visibility
 useHead({
-  title: "ClinicM | Oční klinika Praha 4",
+  title: "M Clinic | Oční klinika Praha 4",
   meta: [
     {
       name: "description",
-      content: "ClinicM - Oční klinika v Praze 4, Táborská 325/57. Zjistěte aktuální otevírací dobu, kontaktní informace a objednejte se na vyšetření. Profesionální péče o zrak s moderním vybavením.",
+      content: "M Clinic - Oční klinika v Praze 4, Táborská 325/57. Zjistěte aktuální otevírací dobu, kontaktní informace a objednejte se na vyšetření. Profesionální péče o zrak s moderním vybavením.",
     },
     {
       name: "keywords",
-      content: "ClinicM, oční klinika Praha, otevírací doba, oční vyšetření, kontakt, adresa, Táborská, Praha 4, oční lékař, optometrie",
+      content: "M Clinic, oční klinika Praha, otevírací doba, oční vyšetření, kontakt, adresa, Táborská, Praha 4, oční lékař, optometrie",
     },
     {
       name: "author",
@@ -427,11 +427,11 @@ useHead({
     // Open Graph tags for social media
     { 
       property: "og:title", 
-      content: "ClinicM | Oční klinika Praha 4" 
+      content: "M Clinic | Oční klinika Praha 4" 
     },
     {
       property: "og:description",
-      content: "ClinicM - Oční klinika v Praze 4, Táborská 325/57. Zjistěte aktuální otevírací dobu, kontaktní informace a objednejte se na vyšetření.",
+      content: "M Clinic - Oční klinika v Praze 4, Táborská 325/57. Zjistěte aktuální otevírací dobu, kontaktní informace a objednejte se na vyšetření.",
     },
     { 
       property: "og:type", 
@@ -443,7 +443,7 @@ useHead({
     },
     { 
       property: "og:site_name", 
-      content: "ClinicM" 
+      content: "M Clinic" 
     },
     // Twitter Card tags
     {
@@ -452,11 +452,11 @@ useHead({
     },
     {
       name: "twitter:title",
-      content: "ClinicM | Oční klinika Praha 4",
+      content: "M Clinic | Oční klinika Praha 4",
     },
     {
       name: "twitter:description",
-      content: "ClinicM - Oční klinika v Praze 4, Táborská 325/57. Zjistěte aktuální otevírací dobu a kontaktní informace.",
+      content: "M Clinic - Oční klinika v Praze 4, Táborská 325/57. Zjistěte aktuální otevírací dobu a kontaktní informace.",
     },
     // Additional SEO tags
     {
@@ -481,7 +481,7 @@ useHead({
       children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "MedicalBusiness",
-        "name": "ClinicM",
+        "name": "M Clinic",
         "description": "Oční klinika s lidským přístupem a moderním vybavením",
         "url": "https://clinicm.cz",
         "telephone": "+420241740815",
