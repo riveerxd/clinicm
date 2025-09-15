@@ -23,7 +23,7 @@
       </div>
 
       <!-- Services Grid -->
-      <div class="grid gap-8 lg:grid-cols-2 lg:gap-12">
+      <div class="grid gap-8 lg:grid-cols-1 md:grid-cols-2 lg:gap-12">
         
         <!-- Non-insured Procedures -->
         <div class="bg-white rounded-3xl p-8 shadow-xl border border-gray-200">
@@ -68,7 +68,7 @@
             <div class="bg-blue-50 rounded-2xl p-4 text-center">
               <span class="text-gray-800 font-semibold text-sm block mb-2">Vyšetření OCT – sítnice, obě oči</span>
               <span class="text-xl font-bold text-blue-600">700 Kč</span>
-              <p class="text-xs text-gray-600 italic mt-2">pojištěnci 111 a 213 zdarma (Zárubova)</p>
+              
             </div>
             
             <div class="bg-blue-50 rounded-2xl p-4 text-center">
@@ -77,72 +77,8 @@
               <p class="text-xs text-gray-600 italic mt-2">preventivní</p>
             </div>
           </div>
-        </div>
 
-        <!-- Aesthetic Medicine -->
-        <div class="bg-white rounded-3xl p-8 shadow-xl border border-gray-200">
-          <div class="text-center mb-8">
-            <h3 class="text-3xl font-bold text-gray-900 mb-4">Estetická medicína</h3>
-            <p class="text-gray-600">Moderní estetické procedury pro krásu a mládí</p>
-          </div>
           
-          <div class="space-y-6">
-            <!-- Hyaluronic Acid -->
-            <div class="bg-purple-50 rounded-2xl p-6 text-center">
-              <span class="text-gray-800 font-semibold text-lg block mb-3">Aplikace intradermálních výplní</span>
-              <span class="text-2xl font-bold text-purple-600">4 999 Kč</span>
-              <p class="text-sm text-gray-600 mt-2">kyselinou hyaluronovou, cena za 1 ml</p>
-            </div>
-            
-            <!-- Botox Section -->
-            <div class="bg-purple-50 rounded-2xl p-6">
-              <h4 class="text-xl font-bold text-gray-800 mb-4 text-center">Botox</h4>
-              <div class="grid gap-3 sm:grid-cols-2">
-                <div class="bg-white rounded-xl p-3 text-center">
-                  <span class="text-gray-700 text-sm block mb-1">Oblast čela</span>
-                  <span class="text-lg font-bold text-purple-600">3000 Kč</span>
-                  <p class="text-xs text-gray-500 mt-1">(25j)</p>
-                </div>
-                <div class="bg-white rounded-xl p-3 text-center">
-                  <span class="text-gray-700 text-sm block mb-1">Svislé vrásky mezi obočím</span>
-                  <span class="text-lg font-bold text-purple-600">3000 Kč</span>
-                  <p class="text-xs text-gray-500 mt-1">(25j)</p>
-                </div>
-                <div class="bg-white rounded-xl p-3 text-center">
-                  <span class="text-gray-700 text-sm block mb-1">Vrásky u vnějších koutků očí</span>
-                  <span class="text-lg font-bold text-purple-600">3000 Kč</span>
-                  <p class="text-xs text-gray-500 mt-1">(25j)</p>
-                </div>
-                <div class="bg-white rounded-xl p-3 text-center">
-                  <span class="text-gray-700 text-sm block mb-1">Botox proti pocení do obou podpaží</span>
-                  <span class="text-lg font-bold text-purple-600">7000 Kč</span>
-                  <p class="text-xs text-gray-500 mt-1">(50j)</p>
-                </div>
-              </div>
-              <p class="text-sm text-gray-600 italic bg-white rounded-lg p-3 mt-4 text-center">V případě, že si klient přeje méně jednotek, cena za 1 jednotku činí 130 Kč</p>
-            </div>
-            
-            <!-- Other Aesthetic Services -->
-            <div class="grid gap-4 sm:grid-cols-2">
-              <div class="bg-purple-50 rounded-2xl p-4 text-center">
-                <h4 class="text-lg font-bold text-gray-800 mb-3">Mezoterapie</h4>
-                <span class="text-xl font-bold text-purple-600">od 2500 Kč</span>
-                <p class="text-sm text-gray-600 mt-2">cena dle spotřebovaného materiálu</p>
-              </div>
-              
-              <div class="bg-purple-50 rounded-2xl p-4 text-center">
-                <h4 class="text-lg font-bold text-gray-800 mb-3">Odstranění patologických útvarů</h4>
-                <span class="text-lg font-bold text-purple-600">od 1000 Kč</span>
-                <p class="text-sm text-gray-600 mt-2">v oblasti očních víček</p>
-              </div>
-              
-              <div class="bg-purple-50 rounded-2xl p-4 text-center sm:col-span-2">
-                <span class="text-gray-700 font-semibold text-sm block mb-2">Kapky k prodlužování řas a vyšetření</span>
-                <span class="text-lg font-bold text-purple-600">1500 Kč</span>
-                <p class="text-sm text-gray-600 mt-2">1 lahvička</p>
-              </div>
-            </div>
-          </div>
         </div>
 
         <!-- Plastic Surgery - Centered on second row -->

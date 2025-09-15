@@ -107,7 +107,7 @@
             >Domů</a
           >            
           <a
-            @click="smoothScrollTo('clinic-opening')"
+            @click="smoothScrollTo('opening-clinic')"
             class="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
             >Klinika</a
           >

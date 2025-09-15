@@ -32,7 +32,6 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
                   </svg>
                 </div>
-                <p class="text-gray-600 text-sm">Profilová fotka</p>
               </div>
             </div>
             
@@ -55,16 +54,7 @@
                 <p class="text-blue-600 font-semibold">Oftalmolog</p>
               </div>
 
-              <!-- Specialization -->
-              <div class="bg-blue-50 rounded-xl p-4">
-                <div class="flex items-center justify-center space-x-2 mb-2">
-                  <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
-                  <span class="text-sm font-semibold text-gray-700">Specializace</span>
-                </div>
-                <p class="text-gray-600 text-sm leading-relaxed">
-                  Chirurgie sítnice, léčba diabetické retinopatie, makulární degenerace
-                </p>
-              </div>
+              
 
               <!-- Experience -->
               <div class="flex items-center justify-center space-x-6 text-center">
@@ -97,7 +87,6 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
                   </svg>
                 </div>
-                <p class="text-gray-600 text-sm">Profilová fotka</p>
               </div>
             </div>
             
@@ -118,17 +107,6 @@
                   Hana Šorfová
                 </h3>
                 <p class="text-indigo-600 font-semibold">Ošetřovatelská péče</p>
-              </div>
-
-              <!-- Specialization -->
-              <div class="bg-indigo-50 rounded-xl p-4">
-                <div class="flex items-center justify-center space-x-2 mb-2">
-                  <div class="w-2 h-2 bg-indigo-500 rounded-full"></div>
-                  <span class="text-sm font-semibold text-gray-700">Specializace</span>
-                </div>
-                <p class="text-gray-600 text-sm leading-relaxed">
-                  Preoperační a pooperační péče, asistence při operacích, edukace pacientů
-                </p>
               </div>
 
               <!-- Experience -->
