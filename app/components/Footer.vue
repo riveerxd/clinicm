@@ -7,10 +7,10 @@
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
           
           <!-- Company Info Column -->
-          <div class="lg:col-span-2 space-y-8">
+          <div class="lg:col-span-2 space-y-8 text-center lg:text-left">
             <!-- Logo and Company Name -->
             <div class="flex-shrink-0">
-            <div class="flex items-center">
+            <div class="flex items-center justify-center lg:justify-start">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="55"
@@ -34,7 +34,7 @@
           </div>
             
             <!-- Company Description -->
-            <p class="text-gray-600 text-base leading-relaxed max-w-2xl">
+            <p class="text-gray-600 text-base leading-relaxed max-w-2xl mx-auto lg:mx-0">
               Precizní péče o zrak s lidským přístupem. Specializujeme se na komplexní oční vyšetření a moderní léčebné metody s nejnovějšími technologiemi.
             </p>
             
@@ -42,14 +42,14 @@
           </div>
           
           <!-- Contact Information Column -->
-          <div class="space-y-8">
+          <div class="space-y-8 text-center lg:text-left">
             <div class="space-y-6">
               <!-- Company Details -->
-              <div class="flex items-start space-x-4">
+              <div class="flex items-start space-x-4 justify-center lg:justify-start">
                 <div class="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
                   <svg class="w-10 h-10 text-blue-600" fill="currentcolor" viewBox="0 0 846.66 846.66" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-darkreader-inline-fill=""><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <defs>  .fil0 {fill:black;fill-rule:nonzero} </defs> <g id="Layer_x0020_1"> <path class="fil0" d="M246.64 243.41l155.89 0 0 -16.64c0,-80.13 65.47,-145.61 145.6,-145.61l187.2 0c11.49,0 20.8,9.32 20.8,20.81l0 621.92 62.72 0c27.37,0 27.37,41.61 0,41.61 -263.68,0 -527.36,0 -791.04,0 -27.36,0 -27.36,-41.61 0,-41.61l62.72 0 0 -324.38c0,-85.9 70.21,-156.1 156.11,-156.1zm344.13 480.48l0 -84.1 -22.89 0 0 84.1 22.89 0zm-64.5 0l0 -104.91c0,-11.49 9.32,-20.8 20.81,-20.8l64.5 0c11.49,0 20.8,9.31 20.8,20.8l0 104.91 82.14 0 0 -601.12 -166.39 0c-57.15,0 -104,46.85 -104,104l0 497.12 82.14 0zm-345.8 -240.14l58.26 0c11.48,0 20.8,9.31 20.8,20.8l0 62.42c0,11.49 -9.32,20.8 -20.8,20.8l-58.26 0c-11.49,0 -20.8,-9.31 -20.8,-20.8l0 -62.42c0,-11.49 9.31,-20.8 20.8,-20.8zm37.45 41.61l-16.64 0 0 20.8 16.64 0 0 -20.8zm78.02 -41.61l58.26 0c11.48,0 20.8,9.31 20.8,20.8l0 62.42c0,11.49 -9.32,20.8 -20.8,20.8l-58.26 0c-11.49,0 -20.8,-9.31 -20.8,-20.8l0 -62.42c0,-11.49 9.31,-20.8 20.8,-20.8zm37.45 41.61l-16.64 0 0 20.8 16.64 0 0 -20.8zm-152.92 -169.57l58.26 0c11.48,0 20.8,9.32 20.8,20.81l0 62.42c0,11.48 -9.32,20.8 -20.8,20.8l-58.26 0c-11.49,0 -20.8,-9.32 -20.8,-20.8l0 -62.42c0,-11.49 9.31,-20.81 20.8,-20.81zm37.45 41.61l-16.64 0 0 20.81 16.64 0 0 -20.81zm78.02 -41.61l58.26 0c11.48,0 20.8,9.32 20.8,20.81l0 62.42c0,11.48 -9.32,20.8 -20.8,20.8l-58.26 0c-11.49,0 -20.8,-9.32 -20.8,-20.8l0 -62.42c0,-11.49 9.31,-20.81 20.8,-20.81zm37.45 41.61l-16.64 0 0 20.81 16.64 0 0 -20.81zm157.51 -124.83c-27.36,0 -27.36,-41.61 0,-41.61l176.85 0c27.37,0 27.37,41.61 0,41.61l-176.85 0zm0 228.86c-27.36,0 -27.36,-41.61 0,-41.61l176.85 0c27.37,0 27.37,41.61 0,41.61l-176.85 0zm0 -114.43c-27.36,0 -27.36,-41.61 0,-41.61l176.85 0c27.37,0 27.37,41.61 0,41.61l-176.85 0zm-88.37 -101.98l-155.89 0c-62.93,0 -114.5,51.57 -114.5,114.49l0 324.38 270.39 0 0 -438.87z"></path> </g> </g></svg>
                 </div>
-                <div class="text-gray-600 text-base space-y-1">
+                <div class="text-gray-600 text-base space-y-1 text-left">
                   <p class="font-semibold text-gray-800">M Clinic s.r.o.</p>
                   <p class="text-gray-500">IČO: 22652540</p>                  
                   <p class="text-gray-500">Táborská 325/57</p>
