@@ -1,26 +1,26 @@
 <template>
-  <section id="technologies" class="py-20 relative">
+  <section id="technologies" class="py-20 relative" aria-labelledby="technologies-heading">
     
     
 
     <div class="max-w-7xl mx-auto px-4 relative z-10">
       <!-- Header Section -->
-      <div class="text-center mb-16">
-        <div class="inline-flex items-center space-x-4 mb-6">
+      <header class="text-center mb-16">
+        <div class="inline-flex items-center space-x-4 mb-6" aria-hidden="true">
           <div class="w-16 h-px bg-gradient-to-r from-transparent via-gray-400 to-transparent"></div>
           <div class="w-3 h-3 bg-gradient-to-br from-cyan-500 to-teal-500 rounded-full"></div>
           <div class="w-16 h-px bg-gradient-to-r from-transparent via-gray-400 to-transparent"></div>
         </div>
-        <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-6">
-          Technologie
+        <h2 id="technologies-heading" class="text-4xl md:text-5xl font-black text-gray-900 mb-6">
+          Moderní Diagnostické Technologie
         </h2>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-          Moderní přístrojové vybavení pro přesnou diagnostiku
+          Nejmodernější přístrojové vybavení pro přesnou diagnostiku očních onemocnění - OCT, perimetr, pachymetr
         </p>
-      </div>
+      </header>
 
       <!-- Technology Cards -->
-      <div class="grid gap-8 md:grid-cols-2 lg:gap-10">
+      <div class="grid gap-8 md:grid-cols-2 lg:gap-10" role="list" aria-label="Seznam diagnostických technologií">
         
         <!-- Technology Card -->
         <div class="bg-white rounded-3xl p-8 shadow-xl border border-gray-200 hover:shadow-2xl transition-all">

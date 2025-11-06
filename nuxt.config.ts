@@ -16,11 +16,11 @@ export default defineNuxtConfig({
       meta: [
         {
           name: 'description',
-          content: 'M Clinic - Oční klinika v Praze 4, Táborská 325/57. Profesionální péče o zrak s moderním vybavením. Objednejte se na vyšetření. Otevírací doba: Po-Čt 8:00-17:00, Pá 8:00-12:00.'
+          content: 'M Clinic - Oční klinika v Praze 4. Komplexní oční vyšetření, diagnostika, léčba katarakty a glaukomu. Moderní technologie OCT, perimetr. Spolupráce se všemi pojišťovnami. Táborská 325/57.'
         },
         {
           name: 'keywords',
-          content: 'M Clinic, oční klinika Praha, oční lékař Praha 4, vyšetření zraku, optometrie, Táborská, oční vyšetření, kontaktní čočky, brýle'
+          content: 'oční klinika praha 4, oční lékař táborská, vyšetření zraku praha, OCT vyšetření, perimetr, glaukom, katarakta, kontaktní čočky, brýlová korekce, oční diagnostika, M Clinic, zdravotní pojišťovna'
         },
         {
           name: 'author',
@@ -32,10 +32,20 @@ export default defineNuxtConfig({
         },
         // Open Graph
         { property: 'og:type', content: 'website' },
+        { property: 'og:title', content: 'M Clinic | Oční klinika Praha 4 - Profesionální péče o zrak' },
+        { property: 'og:description', content: 'Komplexní oční vyšetření a diagnostika s moderními technologiemi. Spolupracujeme se všemi pojišťovnami.' },
+        { property: 'og:url', content: 'https://www.clinicm.cz' },
         { property: 'og:site_name', content: 'M Clinic' },
         { property: 'og:locale', content: 'cs_CZ' },
+        { property: 'og:image', content: 'https://www.clinicm.cz/og-image.jpg' },
+        { property: 'og:image:width', content: '1200' },
+        { property: 'og:image:height', content: '630' },
+        { property: 'og:image:alt', content: 'M Clinic - Oční klinika Praha 4' },
         // Twitter
         { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', content: 'M Clinic | Oční klinika Praha 4' },
+        { name: 'twitter:description', content: 'Komplexní oční vyšetření a diagnostika s moderními technologiemi' },
+        { name: 'twitter:image', content: 'https://www.clinicm.cz/og-image.jpg' },
         // Local Business
         { name: 'geo.region', content: 'CZ-PR' },
         { name: 'geo.placename', content: 'Praha 4' },

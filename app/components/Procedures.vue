@@ -1,45 +1,47 @@
 <template>
-  <section id="procedures" class="py-20 relative">
+  <section id="procedures" class="py-20 relative" aria-labelledby="procedures-heading">
     
     
 
     <div class="max-w-7xl mx-auto px-4 relative z-10">
       <!-- Header Section -->
-      <div class="text-center mb-16">
-        <div class="inline-flex items-center space-x-4 mb-6">
+      <header class="text-center mb-16">
+        <div class="inline-flex items-center space-x-4 mb-6" aria-hidden="true">
           <div class="w-16 h-px bg-gradient-to-r from-transparent via-gray-400 to-transparent"></div>
           <div class="w-3 h-3 bg-gradient-to-br from-indigo-500 to-purple-500 rounded-full"></div>
           <div class="w-16 h-px bg-gradient-to-r from-transparent via-gray-400 to-transparent"></div>
         </div>
-        <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-6">
-          Zákroky
+        <h2 id="procedures-heading" class="text-4xl md:text-5xl font-black text-gray-900 mb-6">
+          Zákroky a Oční Vyšetření
         </h2>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-          Komplexní oční péče pro celou rodinu
+          Komplexní oční péče pro celou rodinu s moderními technologiemi
         </p>
-      </div>
+      </header>
 
       <!-- Procedures Grid -->
-      <div class="flex flex-wrap justify-center gap-6 max-w-7xl mx-auto">
+      <div class="flex flex-wrap justify-center gap-6 max-w-7xl mx-auto" role="list" aria-label="Seznam očních vyšetření a zákroků">
         
         <!-- Procedure Card -->
-        <div class="bg-white rounded-3xl p-6 shadow-xl border border-gray-200 hover:shadow-2xl transition-all hover:-translate-y-1 flex flex-col w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)]">
+        <article class="bg-white rounded-3xl p-6 shadow-xl border border-gray-200 hover:shadow-2xl transition-all hover:-translate-y-1 flex flex-col w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)]" role="listitem">
           <div class="flex items-start space-x-4 flex-1">
             <div class="flex-shrink-0">
-              <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center">
-                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center" aria-hidden="true">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" role="img" aria-label="Ikona očního vyšetření">
+                  <title>Oční vyšetření</title>
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
                 </svg>
               </div>
             </div>
             <div class="flex-1">
+              <h3 class="sr-only">Komplexní oční vyšetření</h3>
               <p class="text-gray-700 leading-relaxed">
                 Komplexní oční vyšetření dětí a dospělých a předpis brýlové korekce
               </p>
             </div>
           </div>
-        </div>
+        </article>
 
         <!-- Procedure Card -->
         <div class="bg-white rounded-3xl p-6 shadow-xl border border-gray-200 hover:shadow-2xl transition-all hover:-translate-y-1 flex flex-col w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)]">

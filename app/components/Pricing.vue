@@ -1,21 +1,21 @@
 <template>
-  <section id="pricing" class="py-20 relative">
+  <section id="pricing" class="py-20 relative" aria-labelledby="pricing-heading">
 
     <div class="max-w-7xl mx-auto px-4 relative z-10">
       <!-- Header Section -->
-      <div class="text-center mb-16">
-        <div class="inline-flex items-center space-x-4 mb-6">
+      <header class="text-center mb-16">
+        <div class="inline-flex items-center space-x-4 mb-6" aria-hidden="true">
           <div class="w-16 h-px bg-gradient-to-r from-transparent via-gray-400 to-transparent"></div>
           <div class="w-3 h-3 bg-gradient-to-br from-blue-500 to-indigo-500 rounded-full"></div>
           <div class="w-16 h-px bg-gradient-to-r from-transparent via-gray-400 to-transparent"></div>
         </div>
-        <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-6">
-          Ceník
+        <h2 id="pricing-heading" class="text-4xl md:text-5xl font-black text-gray-900 mb-6">
+          Ceník Očních Služeb Praha 4
         </h2>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-          Komplexní péče o vaše zdraví s moderním vybavením a zkušenými odborníky
+          Transparentní ceny očních vyšetření a zákroků. Spolupracujeme se všemi zdravotními pojišťovnami.
         </p>
-      </div>
+      </header>
 
       <!-- Pricing Grid -->
       <div class="grid gap-8 lg:grid-cols-1 md:grid-cols-2 lg:gap-12">
