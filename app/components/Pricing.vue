@@ -1,10 +1,5 @@
 <template>
-  <section id="services" class="py-20 relative">
-    <!-- Background decorative elements -->
-    <div class="absolute inset-0 overflow-hidden">
-      <div class="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-blue-400/20 to-cyan-400/20 rounded-full blur-3xl"></div>
-      <div class="absolute -bottom-40 -left-40 w-96 h-96 bg-gradient-to-tr from-indigo-400/20 to-blue-400/20 rounded-full blur-3xl"></div>
-    </div>
+  <section id="pricing" class="py-20 relative">
 
     <div class="max-w-7xl mx-auto px-4 relative z-10">
       <!-- Header Section -->
@@ -15,14 +10,14 @@
           <div class="w-16 h-px bg-gradient-to-r from-transparent via-gray-400 to-transparent"></div>
         </div>
         <h2 class="text-4xl md:text-5xl font-black text-gray-900 mb-6">
-          Naše služby
+          Ceník
         </h2>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
           Komplexní péče o vaše zdraví s moderním vybavením a zkušenými odborníky
         </p>
       </div>
 
-      <!-- Services Grid -->
+      <!-- Pricing Grid -->
       <div class="grid gap-8 lg:grid-cols-1 md:grid-cols-2 lg:gap-12">
         
         <!-- Non-insured Procedures -->
@@ -81,7 +76,7 @@
           
         </div>
 
-        <!-- Plastic Surgery - Centered on second row -->
+        <!-- Plastic Surgery -->
         <div class="bg-white rounded-3xl p-8 shadow-xl border border-gray-200 lg:col-span-2 lg:max-w-2xl lg:mx-auto">
           <div class="text-center mb-8">
             <h3 class="text-3xl font-bold text-gray-900 mb-4">Plastická operace očních víček</h3>
@@ -119,4 +114,5 @@
 .shadow-xl {
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
-</style> 
+</style>
+

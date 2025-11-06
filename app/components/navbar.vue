@@ -49,9 +49,19 @@
                 >Lékaři</a
               >
               <a
-                @click="smoothScrollTo('services')"
+                @click="smoothScrollTo('procedures')"
                 class="text-gray-700 hover:text-blue-600 px-4 py-2 text-sm font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
-                >Služby</a
+                >Zákroky</a
+              >
+              <a
+                @click="smoothScrollTo('technologies')"
+                class="text-gray-700 hover:text-blue-600 px-4 py-2 text-sm font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
+                >Technologie</a
+              >
+              <a
+                @click="smoothScrollTo('pricing')"
+                class="text-gray-700 hover:text-blue-600 px-4 py-2 text-sm font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
+                >Ceník</a
               >
               <a
                 @click="smoothScrollTo('footer')"
@@ -118,9 +128,19 @@
             >Lékaři</a
           >
           <a
-            @click="smoothScrollTo('services')"
+            @click="smoothScrollTo('procedures')"
             class="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
-            >Služby</a
+            >Zákroky</a
+          >
+          <a
+            @click="smoothScrollTo('technologies')"
+            class="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
+            >Technologie</a
+          >
+          <a
+            @click="smoothScrollTo('pricing')"
+            class="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
+            >Ceník</a
           >
           <a
             @click="smoothScrollTo('footer')"
