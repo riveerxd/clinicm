@@ -79,7 +79,11 @@ export default defineNuxtConfig({
   // Performance optimizations
   nitro: {
     compressPublicAssets: true,
-    minify: true
+    minify: true,
+    prerender: {
+      crawlLinks: true,
+      routes: ['/']
+    }
   },
 
   // CSS optimization
