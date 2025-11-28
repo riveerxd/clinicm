@@ -37,7 +37,7 @@ export default defineNuxtConfig({
         { property: 'og:url', content: 'https://www.clinicm.cz' },
         { property: 'og:site_name', content: 'M Clinic' },
         { property: 'og:locale', content: 'cs_CZ' },
-        { property: 'og:image', content: 'https://www.clinicm.cz/og-image.jpg' },
+        { property: 'og:image', content: 'https://www.clinicm.cz/images/preview.png' },
         { property: 'og:image:width', content: '1200' },
         { property: 'og:image:height', content: '630' },
         { property: 'og:image:alt', content: 'M Clinic - Oční klinika Praha 4' },
@@ -45,7 +45,7 @@ export default defineNuxtConfig({
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: 'M Clinic | Oční klinika Praha 4' },
         { name: 'twitter:description', content: 'Komplexní oční vyšetření a diagnostika s moderními technologiemi' },
-        { name: 'twitter:image', content: 'https://www.clinicm.cz/og-image.jpg' },
+        { name: 'twitter:image', content: 'https://www.clinicm.cz/images/preview.png' },
         // Local Business
         { name: 'geo.region', content: 'CZ-PR' },
         { name: 'geo.placename', content: 'Praha 4' },
