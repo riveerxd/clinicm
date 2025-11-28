@@ -90,6 +90,12 @@ export default defineNuxtConfig({
     transpile: []
   },
 
+  // Site config for SEO modules
+  site: {
+    url: 'https://www.clinicm.cz',
+    name: 'M Clinic'
+  },
+
   // Runtime config for environment variables
   runtimeConfig: {
     public: {
