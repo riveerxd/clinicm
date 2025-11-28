@@ -148,4 +148,9 @@ useHead({
     { rel: 'canonical', href: 'https://www.clinicm.cz/' }
   ]
 })
+
+// Define OG Image using custom template
+defineOgImageComponent('OgImageTemplate', {
+  subtitle: 'Komplexní oční vyšetření a diagnostika s moderními technologiemi'
+})
 </script> 
