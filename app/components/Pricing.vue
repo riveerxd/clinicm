@@ -86,12 +86,12 @@
           <div class="grid gap-6 sm:grid-cols-2 max-w-lg mx-auto">
             <div class="bg-emerald-50 rounded-2xl p-6 text-center">
               <h4 class="text-xl font-bold text-gray-800 mb-4">Horních víček</h4>
-              <span class="text-3xl font-bold text-emerald-600">15 000 Kč</span>
+              <span class="text-3xl font-bold text-emerald-600">17 000 Kč</span>
             </div>
             
             <div class="bg-emerald-50 rounded-2xl p-6 text-center">
               <h4 class="text-xl font-bold text-gray-800 mb-4">Dolních víček</h4>
-              <span class="text-3xl font-bold text-emerald-600">15 000 Kč</span>
+              <span class="text-3xl font-bold text-emerald-600">17 000 Kč</span>
             </div>
           </div>
         </div>
