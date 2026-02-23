@@ -112,7 +112,7 @@
     <main role="main" aria-label="Hlavní obsah">
       <!-- Hero Section -->
       <Hero />
-      <OpeningClinic />
+      <!-- <OpeningClinic /> -->
       <ContactNews />
       <OurTeam />
       <Procedures />
