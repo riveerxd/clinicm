@@ -73,59 +73,6 @@
         </div>
       </div>
 
-      <!-- MUDr. Samer Al Marei -->
-      <div class="group">
-        <div class="bg-white/60 backdrop-blur-md rounded-2xl border border-white/40 shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
-
-          <!-- Profile Image -->
-          <div class="relative h-80 overflow-hidden">
-            <div class="absolute inset-0 bg-gradient-to-br from-teal-50 to-cyan-50 flex items-center justify-center">
-              <!-- Placeholder for profile image - replace with actual image -->
-              <div class="text-center p-8">
-                <div class="w-24 h-24 bg-gradient-to-br from-teal-500 to-cyan-500 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
-                  <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
-                  </svg>
-                </div>
-              </div>
-            </div>
-
-            <!-- Status Badge -->
-            <div class="absolute top-4 right-4">
-              <div class="bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg">
-                Lékař
-              </div>
-            </div>
-          </div>
-
-          <!-- Member Info -->
-          <div class="p-6">
-            <div class="text-center space-y-3">
-              <!-- Name and Title -->
-              <div>
-                <h3 class="text-2xl font-black text-gray-900 mb-1">
-                  MUDr. Samer Al Marei
-                </h3>
-                <p class="text-teal-600 font-semibold">Oftalmolog</p>
-              </div>
-
-              <!-- Experience -->
-              <div class="flex items-center justify-center space-x-6 text-center">
-                <div>
-                  <div class="text-2xl font-black text-gray-900">17+</div>
-                  <div class="text-xs text-gray-500 font-semibold uppercase tracking-wide">Let praxe</div>
-                </div>
-                <div class="w-px h-8 bg-gray-300"></div>
-                <div>
-                  <div class="text-2xl font-black text-gray-900">15000+</div>
-                  <div class="text-xs text-gray-500 font-semibold uppercase tracking-wide">Pacientů</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <!-- Hana Šorfová -->
       <div class="group">
         <div class="bg-white/60 backdrop-blur-md rounded-2xl border border-white/40 shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
