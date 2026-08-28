@@ -30,45 +30,45 @@
           <div class="grid gap-4 sm:grid-cols-2">
             <div class="bg-blue-50 rounded-2xl p-4 text-center">
               <span class="text-gray-800 font-semibold text-sm block mb-2">Vyšetření na řidičský průkaz</span>
-              <span class="text-xl font-bold text-blue-600">800 Kč</span>
+              <span class="text-xl font-bold text-blue-600 tabular-nums">800 Kč</span>
             </div>
             
             <div class="bg-blue-50 rounded-2xl p-4 text-center">
               <span class="text-gray-800 font-semibold text-sm block mb-2">Vyšetření na řidičský průkaz - Senioři</span>
-              <span class="text-xl font-bold text-blue-600">800 Kč</span>
+              <span class="text-xl font-bold text-blue-600 tabular-nums">800 Kč</span>
             </div>
             
             <div class="bg-blue-50 rounded-2xl p-4 text-center">
               <span class="text-gray-800 font-semibold text-sm block mb-2">Vyšetření na zbrojní průkaz</span>
-              <span class="text-xl font-bold text-blue-600">1500 Kč</span>
+              <span class="text-xl font-bold text-blue-600 tabular-nums">1500 Kč</span>
             </div>
             
             <div class="bg-blue-50 rounded-2xl p-4 text-center">
               <span class="text-gray-800 font-semibold text-sm block mb-2">Preventivní prohlídky pro zaměstnavatele</span>
-              <span class="text-xl font-bold text-blue-600">1000 Kč</span>
+              <span class="text-xl font-bold text-blue-600 tabular-nums">1000 Kč</span>
               <p class="text-xs text-gray-600 italic mt-2">cílené vyšetření pro zaměstnavatele nebo jiné nezdravotnické instituce</p>
             </div>
             
             <div class="bg-blue-50 rounded-2xl p-4 text-center">
               <span class="text-gray-800 font-semibold text-sm block mb-2">Výpis karty</span>
-              <span class="text-xl font-bold text-blue-600">300 Kč</span>
+              <span class="text-xl font-bold text-blue-600 tabular-nums">300 Kč</span>
             </div>
             
             <div class="bg-blue-50 rounded-2xl p-4 text-center">
               <span class="text-gray-800 font-semibold text-sm block mb-2">Sepsání potvrzení</span>
-              <span class="text-xl font-bold text-blue-600">800 Kč</span>
+              <span class="text-xl font-bold text-blue-600 tabular-nums">800 Kč</span>
               <p class="text-xs text-gray-600 italic mt-2">které nesouvisí s léčebnou činností</p>
             </div>
             
             <div class="bg-blue-50 rounded-2xl p-4 text-center">
               <span class="text-gray-800 font-semibold text-sm block mb-2">Vyšetření OCT – sítnice, obě oči</span>
-              <span class="text-xl font-bold text-blue-600">700 Kč</span>
+              <span class="text-xl font-bold text-blue-600 tabular-nums">700 Kč</span>
               
             </div>
             
             <div class="bg-blue-50 rounded-2xl p-4 text-center">
               <span class="text-gray-800 font-semibold text-sm block mb-2">Vyšetření samoplátců - nepojištěných klientů</span>
-              <span class="text-xl font-bold text-blue-600">2000 Kč</span>
+              <span class="text-xl font-bold text-blue-600 tabular-nums">2000 Kč</span>
               <p class="text-xs text-gray-600 italic mt-2">preventivní</p>
             </div>
           </div>
@@ -86,12 +86,12 @@
           <div class="grid gap-6 sm:grid-cols-2 max-w-lg mx-auto">
             <div class="bg-emerald-50 rounded-2xl p-6 text-center">
               <h4 class="text-xl font-bold text-gray-800 mb-4">Horních víček</h4>
-              <span class="text-3xl font-bold text-emerald-600">17 000 Kč</span>
+              <span class="text-3xl font-bold text-emerald-600 tabular-nums">17 000 Kč</span>
             </div>
             
             <div class="bg-emerald-50 rounded-2xl p-6 text-center">
               <h4 class="text-xl font-bold text-gray-800 mb-4">Dolních víček</h4>
-              <span class="text-3xl font-bold text-emerald-600">17 000 Kč</span>
+              <span class="text-3xl font-bold text-emerald-600 tabular-nums">17 000 Kč</span>
             </div>
           </div>
         </div>

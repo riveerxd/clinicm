@@ -59,7 +59,7 @@
               <img 
                 src="/images/heroimageop.webp" 
                 alt="Pokročilé vyšetření očí" 
-                class="w-full h-full object-cover hover:scale-105 transition-transform duration-700 ease-out"
+                class="w-full h-full object-cover hover:scale-105 transition-transform duration-300 ease-out"
               >
               <!-- Subtle overlay -->
               <div class="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent"></div>
@@ -70,15 +70,15 @@
           <div class="absolute -bottom-8 left-8 right-8 bg-white/95 backdrop-blur-sm rounded-xl p-6 shadow-xl border border-gray-100">
             <div class="grid grid-cols-3 gap-6 text-center">
               <div class="space-y-1">
-                <div class="text-2xl font-black text-gray-900">15+</div>
+                <div class="text-2xl font-black text-gray-900 tabular-nums">15+</div>
                 <div class="text-xs text-gray-500 uppercase tracking-wide font-semibold">Let</div>
               </div>
               <div class="space-y-1">
-                <div class="text-2xl font-black text-gray-900">10k+</div>
+                <div class="text-2xl font-black text-gray-900 tabular-nums">10k+</div>
                 <div class="text-xs text-gray-500 uppercase tracking-wide font-semibold">Pacientů</div>
               </div>
               <div class="space-y-1">
-                <div class="text-2xl font-black text-gray-900">99%</div>
+                <div class="text-2xl font-black text-gray-900 tabular-nums">99%</div>
                 <div class="text-xs text-gray-500 uppercase tracking-wide font-semibold">Úspěšnost</div>
               </div>
             </div>
@@ -109,10 +109,16 @@ const smoothScrollTo = (sectionId) => {
     const elementPosition = splitter.getBoundingClientRect().top;
     const offsetPosition = elementPosition + window.pageYOffset - navbarHeight;
     
-    // Premium smooth scroll with longer duration
+    // Anything past roughly 300ms reads as sluggish, and a reduced motion
+    // request means no travel at all.
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      window.scrollTo(0, offsetPosition);
+      return;
+    }
+
     const startPosition = window.pageYOffset;
     const distance = offsetPosition - startPosition;
-    const duration = 1200; // 1.2 seconds for premium feel
+    const duration = 300;
     let start = null;
     
     function animation(currentTime) {
@@ -143,6 +149,6 @@ button {
 }
 
 img {
-  transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 </style> 

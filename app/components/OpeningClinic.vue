@@ -67,7 +67,7 @@
                   </div>
                   
                   <!-- Time until next change -->
-                  <div v-if="timeUntilNextChange" class="text-sm text-gray-600">
+                  <div v-if="timeUntilNextChange" class="text-sm text-gray-600 tabular-nums">
                     {{ timeUntilNextChange }}
                   </div>
                 </div>
@@ -124,7 +124,7 @@
                           :key="index"
                           class="space-y-0.5"
                         >
-                          <div class="font-bold text-gray-900 text-sm">
+                          <div class="font-bold text-gray-900 text-sm tabular-nums">
                             {{ formatTime(slot.open) }} - {{ formatTime(slot.close) }}
                           </div>
                           <div v-if="slot.description" class="text-xs text-blue-600 italic">
@@ -134,7 +134,7 @@
                       </div>
                       <!-- Fallback to single time range -->
                       <div v-else>
-                        <div class="font-bold text-gray-900 text-sm">
+                        <div class="font-bold text-gray-900 text-sm tabular-nums">
                           {{ formatTime(hours.open) }} - {{ formatTime(hours.close) }}
                         </div>
                       </div>

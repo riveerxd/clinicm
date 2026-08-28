@@ -59,12 +59,12 @@
               <!-- Experience -->
               <div class="flex items-center justify-center space-x-6 text-center">
                 <div>
-                  <div class="text-2xl font-black text-gray-900">15+</div>
+                  <div class="text-2xl font-black text-gray-900 tabular-nums">15+</div>
                   <div class="text-xs text-gray-500 font-semibold uppercase tracking-wide">Let praxe</div>
                 </div>
                 <div class="w-px h-8 bg-gray-300"></div>
                 <div>
-                  <div class="text-2xl font-black text-gray-900">5000+</div>
+                  <div class="text-2xl font-black text-gray-900 tabular-nums">5000+</div>
                   <div class="text-xs text-gray-500 font-semibold uppercase tracking-wide">Operací</div>
                 </div>
               </div>
@@ -112,12 +112,12 @@
               <!-- Experience -->
               <div class="flex items-center justify-center space-x-6 text-center">
                 <div>
-                  <div class="text-2xl font-black text-gray-900">12+</div>
+                  <div class="text-2xl font-black text-gray-900 tabular-nums">12+</div>
                   <div class="text-xs text-gray-500 font-semibold uppercase tracking-wide">Let praxe</div>
                 </div>
                 <div class="w-px h-8 bg-gray-300"></div>
                 <div>
-                  <div class="text-2xl font-black text-gray-900">3000+</div>
+                  <div class="text-2xl font-black text-gray-900 tabular-nums">3000+</div>
                   <div class="text-xs text-gray-500 font-semibold uppercase tracking-wide">Pacientů</div>
                 </div>
               </div>

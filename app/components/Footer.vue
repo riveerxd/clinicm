@@ -87,9 +87,16 @@ const smoothScrollTo = (sectionId) => {
     const elementPosition = splitter.getBoundingClientRect().top;
     const offsetPosition = elementPosition + window.pageYOffset - navbarHeight;
     
+    // Anything past roughly 300ms reads as sluggish, and a reduced motion
+    // request means no travel at all.
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      window.scrollTo(0, offsetPosition);
+      return;
+    }
+
     const startPosition = window.pageYOffset;
     const distance = offsetPosition - startPosition;
-    const duration = 1200;
+    const duration = 300;
     let start = null;
     
     function animation(currentTime) {

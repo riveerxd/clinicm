@@ -34,37 +34,44 @@
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline space-x-8">
               <a
-                @click="smoothScrollTo('hero')"
+                href="#hero"
+                @click.prevent="smoothScrollTo('hero')"
                 class="text-gray-700 hover:text-blue-600 px-4 py-2 text-sm font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
                 >Domů</a
               >
               <a
-                @click="smoothScrollTo('opening-clinic')"
+                href="#opening-clinic"
+                @click.prevent="smoothScrollTo('opening-clinic')"
                 class="text-gray-700 hover:text-blue-600 px-4 py-2 text-sm font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
                 >Klinika</a
               >
               <a
-                @click="smoothScrollTo('our-team')"
+                href="#our-team"
+                @click.prevent="smoothScrollTo('our-team')"
                 class="text-gray-700 hover:text-blue-600 px-4 py-2 text-sm font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
                 >Lékaři</a
               >
               <a
-                @click="smoothScrollTo('procedures')"
+                href="#procedures"
+                @click.prevent="smoothScrollTo('procedures')"
                 class="text-gray-700 hover:text-blue-600 px-4 py-2 text-sm font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
                 >Zákroky</a
               >
               <a
-                @click="smoothScrollTo('technologies')"
+                href="#technologies"
+                @click.prevent="smoothScrollTo('technologies')"
                 class="text-gray-700 hover:text-blue-600 px-4 py-2 text-sm font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
                 >Technologie</a
               >
               <a
-                @click="smoothScrollTo('pricing')"
+                href="#pricing"
+                @click.prevent="smoothScrollTo('pricing')"
                 class="text-gray-700 hover:text-blue-600 px-4 py-2 text-sm font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
                 >Ceník</a
               >
               <a
-                @click="smoothScrollTo('footer')"
+                href="#footer"
+                @click.prevent="smoothScrollTo('footer')"
                 class="text-gray-700 hover:text-blue-600 px-4 py-2 text-sm font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
                 >Kontakt</a
               >
@@ -74,8 +81,11 @@
           <!-- Mobile menu button -->
           <div class="md:hidden">
             <button 
+              type="button"
+              :aria-expanded="isMobileMenuOpen"
+              aria-controls="mobile-menu"
               @click="isMobileMenuOpen = !isMobileMenuOpen"
-            class="inline-flex items-center justify-center p-2 rounded-lg text-gray-700 hover:text-blue-600 hover:bg-white/20 focus:outline-none  focus:ring-blue-500/50 transition-all duration-300"
+            class="inline-flex items-center justify-center p-2.5 rounded-lg text-gray-700 hover:text-blue-600 hover:bg-white/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 transition-all duration-300"
             >
               <span class="sr-only">Open main menu</span>
               <!-- Hamburger icon with morphing animation -->
@@ -107,44 +117,51 @@
         leave-from-class="opacity-100 max-h-96"
         leave-to-class="opacity-0 max-h-0"
       >
-        <div v-if="isMobileMenuOpen" class="md:hidden overflow-hidden">
+        <div v-if="isMobileMenuOpen" id="mobile-menu" class="md:hidden overflow-hidden">
           <div
             class="px-2 pt-2 pb-3 space-y-1 sm:px-3 border-b border-white/30"
           >
           <a
-            @click="smoothScrollTo('hero')"
-            class="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
+            href="#hero"
+            @click.prevent="smoothScrollTo('hero')"
+            class="text-gray-700 hover:text-blue-600 flex items-center min-h-[44px] px-3 py-2 text-base font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
             >Domů</a
           >            
           <a
-            @click="smoothScrollTo('opening-clinic')"
-            class="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
+            href="#opening-clinic"
+            @click.prevent="smoothScrollTo('opening-clinic')"
+            class="text-gray-700 hover:text-blue-600 flex items-center min-h-[44px] px-3 py-2 text-base font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
             >Klinika</a
           >
           
           <a
-            @click="smoothScrollTo('our-team')"
-            class="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
+            href="#our-team"
+            @click.prevent="smoothScrollTo('our-team')"
+            class="text-gray-700 hover:text-blue-600 flex items-center min-h-[44px] px-3 py-2 text-base font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
             >Lékaři</a
           >
           <a
-            @click="smoothScrollTo('procedures')"
-            class="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
+            href="#procedures"
+            @click.prevent="smoothScrollTo('procedures')"
+            class="text-gray-700 hover:text-blue-600 flex items-center min-h-[44px] px-3 py-2 text-base font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
             >Zákroky</a
           >
           <a
-            @click="smoothScrollTo('technologies')"
-            class="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
+            href="#technologies"
+            @click.prevent="smoothScrollTo('technologies')"
+            class="text-gray-700 hover:text-blue-600 flex items-center min-h-[44px] px-3 py-2 text-base font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
             >Technologie</a
           >
           <a
-            @click="smoothScrollTo('pricing')"
-            class="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
+            href="#pricing"
+            @click.prevent="smoothScrollTo('pricing')"
+            class="text-gray-700 hover:text-blue-600 flex items-center min-h-[44px] px-3 py-2 text-base font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
             >Ceník</a
           >
           <a
-            @click="smoothScrollTo('footer')"
-            class="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
+            href="#footer"
+            @click.prevent="smoothScrollTo('footer')"
+            class="text-gray-700 hover:text-blue-600 flex items-center min-h-[44px] px-3 py-2 text-base font-semibold transition-all duration-300 hover:bg-white/20 rounded-lg cursor-pointer"
             >Kontakt</a
           >
           </div>
@@ -177,10 +194,16 @@ const smoothScrollTo = (sectionId) => {
     const elementPosition = splitter.getBoundingClientRect().top;
     const offsetPosition = elementPosition + window.pageYOffset - navbarHeight;
     
-    // Premium smooth scroll with longer duration
+    // Anything past roughly 300ms reads as sluggish, and a reduced motion
+    // request means no travel at all.
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      window.scrollTo(0, offsetPosition);
+      return;
+    }
+
     const startPosition = window.pageYOffset;
     const distance = offsetPosition - startPosition;
-    const duration = 1200; // 1.2 seconds for premium feel
+    const duration = 300;
     let start = null;
     
     function animation(currentTime) {
