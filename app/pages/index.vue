@@ -15,7 +15,7 @@
               "logo": "https://www.clinicm.cz/logo.png",
               "foundingDate": "2020",
               "email": "info@clinicm.cz",
-              "telephone": "+420-XXX-XXX-XXX",
+              "telephone": "+420241740815",
               "priceRange": "$$",
               "taxID": "22652540",
               "address": {
